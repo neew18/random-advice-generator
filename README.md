@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app solution
 
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+<img src="./design/desktop-preview.jpg" width="400" />
 
 This is a solution to the Advice generator app challenge on Frontend Mentor
 
@@ -32,14 +32,15 @@ Users should be able to:
 
 #### On mobile
 
-![127 0 0 1_5500_index html(iPhone SE)](https://user-images.githubusercontent.com/98087868/221440743-0b0625fe-f53d-4094-93a7-1ecb880d49cf.png)
+<img src="https://user-images.githubusercontent.com/98087868/221440743-0b0625fe-f53d-4094-93a7-1ecb880d49cf.png" width="200" />
 
 #### On desktop
 
-![127 0 0 1_5500_index html(Nest Hub Max)](https://user-images.githubusercontent.com/98087868/221440738-df1b866e-e3de-485f-b8e1-aacf594922ba.png)
+<img src="https://user-images.githubusercontent.com/98087868/221440738-df1b866e-e3de-485f-b8e1-aacf594922ba.png" width="400" />
 
 ### Links
 
+You can view the live version [here](https://vercel.com/neew18/random-advice-generator).
 
 ## My process
 
