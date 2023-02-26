@@ -1,0 +1,88 @@
+:root{
+        --light-cyan: hsl(193, 38%, 86%);
+        --neon-green: hsl(150, 100%, 66%);
+        --grayish-blue: hsl(217, 19%, 38%);
+        --dark-grayish-blue: hsl(217, 19%, 24%);
+        --dark-blue: hsl(218, 23%, 16%);
+}
+
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin:0;
+}
+
+html{
+        font-size: 62.5%;
+}
+
+body{
+        background-color: var(--dark-blue) !important ;
+        min-height: 100vh;
+}
+
+main{
+        background-color: var(--dark-grayish-blue);
+        font-family: 'Manrope', sans-serif;
+        width: 34rem;
+        padding: 2.5rem;
+        border-radius: 0.7rem;
+}
+
+p,footer p a:hover{
+        color: var(--neon-green);
+}
+
+p{
+        font-size: 1.2rem;
+        letter-spacing: 0.4rem;
+        padding: 1.5rem 0;
+}
+
+h1{
+        font-size: 2.4rem;
+        color: var(--light-cyan) !important;
+}
+
+.dividers{
+        margin: 0 auto;
+}
+
+button{
+        background-color: var(--neon-green);
+        padding: 1.7rem;
+        border: none;
+        left: 42%;
+}
+
+button,footer p a{
+        transition: all 200ms ease-in-out;
+}
+
+button:hover{
+        box-shadow: 0px 0px 2.5rem var(--neon-green);
+}
+
+footer p,footer p a{
+        color: var(--light-cyan) ;
+}
+
+footer p {
+        letter-spacing: 0.1rem;
+}
+
+
+@media only screen and (min-width:768px){
+        main{
+                width: 51rem;
+                padding: 3rem;
+        }
+
+        p{
+                font-size: 1.5rem;
+        }
+
+        button{
+                left: 44.5%;
+        }
+}
